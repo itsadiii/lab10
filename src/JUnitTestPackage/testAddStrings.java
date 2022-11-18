@@ -4,11 +4,10 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class testAddNumbers {
+public class testAddStrings {
 	JUnitFunctions t = new JUnitFunctions();
 	@Test
 	public void test() {
-		assertEquals( "Regular integer should work", t.addNumbers(4,5),9);
+		assertEquals( "Regular string addition should work", t.addStrings("a","b"),"ab");
 	}
-
 }
